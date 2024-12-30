@@ -24,7 +24,6 @@ def main():
     feed = ''
     all_words = read_words_file()
     word = choose_random_word(all_words)
-    print(word)
     while attempts > 0:
         guess = get_valid_guess(all_words, guesses)
         guesses.append(guess)  # Add the guess to the list of guesses
